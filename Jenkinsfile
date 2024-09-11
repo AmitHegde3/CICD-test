@@ -2,7 +2,7 @@ pipeline {
     agent any
 
     environment {
-        DOCKER_IMAGE = "CI-CD-test"
+        DOCKER_IMAGE = "cicd-test"
         DOCKER_TAG = "latest"
     }
 
